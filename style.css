@@ -115,3 +115,67 @@ ul li {
   margin-bottom: 8px; 
   line-height: 1.6;
 }
+
+/* Awards section */
+#awards h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 36px;
+  margin-bottom: 14px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.award-list {
+  margin: 0;
+  padding-left: 28px;
+}
+
+.award-list > li {
+  margin-bottom: 14px;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+.award-list > li::marker {
+  font-size: 1.1em;
+}
+
+.award-source {
+  color: #1772d0;
+  font-weight: 400;
+}
+
+a.award-source {
+  text-decoration: none;
+}
+
+a.award-source:hover {
+  text-decoration: underline;
+}
+
+.award-source.no-link {
+  color: #1772d0;
+  cursor: default;
+}
+
+.award-badge {
+  color: #555;
+  margin-left: 4px;
+}
+
+.award-badge strong {
+  color: #444;
+  font-weight: 700;
+}
+
+.award-sublist {
+  margin-top: 4px;
+  padding-left: 28px;
+}
+
+.award-sublist li {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 4px;
+}
