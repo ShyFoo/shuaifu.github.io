@@ -118,7 +118,7 @@ ul li {
 
 /* Awards section */
 #awards h2 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   margin-top: 36px;
   margin-bottom: 14px;
@@ -128,17 +128,17 @@ ul li {
 
 .award-list {
   margin: 0;
-  padding-left: 28px;
+  padding-left: 26px;
 }
 
 .award-list > li {
-  margin-bottom: 14px;
-  line-height: 1.6;
-  font-size: 17px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  font-size: 15px;
 }
 
 .award-list > li::marker {
-  font-size: 1.1em;
+  font-size: 0.95em;
 }
 
 .award-source {
@@ -160,22 +160,23 @@ a.award-source:hover {
 }
 
 .award-badge {
-  color: #555;
+  color: #444;
   margin-left: 4px;
 }
 
 .award-badge strong {
-  color: #444;
+  color: #333;
   font-weight: 700;
 }
 
 .award-sublist {
-  margin-top: 4px;
-  padding-left: 28px;
+  margin-top: 3px;
+  padding-left: 24px;
 }
 
 .award-sublist li {
-  font-size: 15px;
+  font-size: 14px;
   color: #555;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
+  line-height: 1.45;
 }
